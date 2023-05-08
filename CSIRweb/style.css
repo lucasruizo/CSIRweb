@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top_header{
+    height: 32px;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+}
+.top_header img{
+    display: flex;
+    float: left;
+    height: 32px;
+}
+
+.navbar{
+    margin-top: 32px;
+    display:flex ;
+    height: 64px;
+    width: 100%;
+    background-color: #1d0770;
+    position: fixed;
+}
+
+.section_header{
+    overflow:hidden;
+    
+}
+
+.section_header aside{
+    position: absolute;
+    width:554px;
+    height: 911px;
+    background-color: #1d0770;
+    margin-top: 96px;
+
+
+}
+.section_header img{
+    display: flex;
+    float:right;
+    margin-right: -17px;
+    margin-top: 96px;
+    
+    
+}
+
+section{
+    height: 900px;
+}
